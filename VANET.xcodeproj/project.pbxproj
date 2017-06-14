@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342934241EF1B9CE003FAA12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342934231EF1B9CE003FAA12 /* AppDelegate.swift */; };
+		342934261EF1B9CE003FAA12 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 342934251EF1B9CE003FAA12 /* GameScene.sks */; };
+		342934281EF1B9CE003FAA12 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 342934271EF1B9CE003FAA12 /* Actions.sks */; };
+		3429342A1EF1B9CE003FAA12 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342934291EF1B9CE003FAA12 /* GameScene.swift */; };
+		3429342C1EF1B9CE003FAA12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429342B1EF1B9CE003FAA12 /* ViewController.swift */; };
+		3429342E1EF1B9CE003FAA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3429342D1EF1B9CE003FAA12 /* Assets.xcassets */; };
+		342934311EF1B9CE003FAA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3429342F1EF1B9CE003FAA12 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		342934201EF1B9CE003FAA12 /* VANET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VANET.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342934231EF1B9CE003FAA12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		342934251EF1B9CE003FAA12 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		342934271EF1B9CE003FAA12 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		342934291EF1B9CE003FAA12 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3429342B1EF1B9CE003FAA12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3429342D1EF1B9CE003FAA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342934301EF1B9CE003FAA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342934321EF1B9CE003FAA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342934331EF1B9CE003FAA12 /* VANET.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VANET.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3429341D1EF1B9CD003FAA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342934171EF1B9CD003FAA12 = {
+			isa = PBXGroup;
+			children = (
+				342934221EF1B9CE003FAA12 /* VANET */,
+				342934211EF1B9CE003FAA12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342934211EF1B9CE003FAA12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342934201EF1B9CE003FAA12 /* VANET.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342934221EF1B9CE003FAA12 /* VANET */ = {
+			isa = PBXGroup;
+			children = (
+				342934231EF1B9CE003FAA12 /* AppDelegate.swift */,
+				342934251EF1B9CE003FAA12 /* GameScene.sks */,
+				342934271EF1B9CE003FAA12 /* Actions.sks */,
+				342934291EF1B9CE003FAA12 /* GameScene.swift */,
+				3429342B1EF1B9CE003FAA12 /* ViewController.swift */,
+				3429342D1EF1B9CE003FAA12 /* Assets.xcassets */,
+				3429342F1EF1B9CE003FAA12 /* Main.storyboard */,
+				342934321EF1B9CE003FAA12 /* Info.plist */,
+				342934331EF1B9CE003FAA12 /* VANET.entitlements */,
+			);
+			path = VANET;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3429341F1EF1B9CD003FAA12 /* VANET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342934361EF1B9CE003FAA12 /* Build configuration list for PBXNativeTarget "VANET" */;
+			buildPhases = (
+				3429341C1EF1B9CD003FAA12 /* Sources */,
+				3429341D1EF1B9CD003FAA12 /* Frameworks */,
+				3429341E1EF1B9CD003FAA12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VANET;
+			productName = VANET;
+			productReference = 342934201EF1B9CE003FAA12 /* VANET.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342934181EF1B9CD003FAA12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Nameless Apps";
+				TargetAttributes = {
+					3429341F1EF1B9CD003FAA12 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 3429341B1EF1B9CD003FAA12 /* Build configuration list for PBXProject "VANET" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342934171EF1B9CD003FAA12;
+			productRefGroup = 342934211EF1B9CE003FAA12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3429341F1EF1B9CD003FAA12 /* VANET */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3429341E1EF1B9CD003FAA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342934261EF1B9CE003FAA12 /* GameScene.sks in Resources */,
+				3429342E1EF1B9CE003FAA12 /* Assets.xcassets in Resources */,
+				342934281EF1B9CE003FAA12 /* Actions.sks in Resources */,
+				342934311EF1B9CE003FAA12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3429341C1EF1B9CD003FAA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3429342C1EF1B9CE003FAA12 /* ViewController.swift in Sources */,
+				3429342A1EF1B9CE003FAA12 /* GameScene.swift in Sources */,
+				342934241EF1B9CE003FAA12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3429342F1EF1B9CE003FAA12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342934301EF1B9CE003FAA12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342934341EF1B9CE003FAA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		342934351EF1B9CE003FAA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		342934371EF1B9CE003FAA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VANET/VANET.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HLB4G4QBTU;
+				INFOPLIST_FILE = VANET/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.shanehsu.VANET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		342934381EF1B9CE003FAA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VANET/VANET.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HLB4G4QBTU;
+				INFOPLIST_FILE = VANET/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.shanehsu.VANET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3429341B1EF1B9CD003FAA12 /* Build configuration list for PBXProject "VANET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342934341EF1B9CE003FAA12 /* Debug */,
+				342934351EF1B9CE003FAA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342934361EF1B9CE003FAA12 /* Build configuration list for PBXNativeTarget "VANET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342934371EF1B9CE003FAA12 /* Debug */,
+				342934381EF1B9CE003FAA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342934181EF1B9CD003FAA12 /* Project object */;
+}
