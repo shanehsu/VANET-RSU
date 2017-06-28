@@ -9,24 +9,26 @@
 /* Begin PBXBuildFile section */
 		342934241EF1B9CE003FAA12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342934231EF1B9CE003FAA12 /* AppDelegate.swift */; };
 		342934261EF1B9CE003FAA12 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 342934251EF1B9CE003FAA12 /* GameScene.sks */; };
-		342934281EF1B9CE003FAA12 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 342934271EF1B9CE003FAA12 /* Actions.sks */; };
 		3429342A1EF1B9CE003FAA12 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342934291EF1B9CE003FAA12 /* GameScene.swift */; };
 		3429342C1EF1B9CE003FAA12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429342B1EF1B9CE003FAA12 /* ViewController.swift */; };
 		3429342E1EF1B9CE003FAA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3429342D1EF1B9CE003FAA12 /* Assets.xcassets */; };
 		342934311EF1B9CE003FAA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3429342F1EF1B9CE003FAA12 /* Main.storyboard */; };
+		346883B01EF1DE9700014C61 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346883AF1EF1DE9700014C61 /* Vehicle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		342934201EF1B9CE003FAA12 /* VANET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VANET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342934231EF1B9CE003FAA12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		342934251EF1B9CE003FAA12 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		342934271EF1B9CE003FAA12 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		342934291EF1B9CE003FAA12 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3429342B1EF1B9CE003FAA12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3429342D1EF1B9CE003FAA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342934301EF1B9CE003FAA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		342934321EF1B9CE003FAA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342934331EF1B9CE003FAA12 /* VANET.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VANET.entitlements; sourceTree = "<group>"; };
+		346883AF1EF1DE9700014C61 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		346883B21EF1E17700014C61 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		346883B31EF1E18300014C61 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			children = (
 				342934221EF1B9CE003FAA12 /* VANET */,
 				342934211EF1B9CE003FAA12 /* Products */,
+				346883B11EF1E17600014C61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,16 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				342934231EF1B9CE003FAA12 /* AppDelegate.swift */,
-				342934251EF1B9CE003FAA12 /* GameScene.sks */,
-				342934271EF1B9CE003FAA12 /* Actions.sks */,
 				342934291EF1B9CE003FAA12 /* GameScene.swift */,
 				3429342B1EF1B9CE003FAA12 /* ViewController.swift */,
+				346883AF1EF1DE9700014C61 /* Vehicle.swift */,
+				342934251EF1B9CE003FAA12 /* GameScene.sks */,
 				3429342D1EF1B9CE003FAA12 /* Assets.xcassets */,
 				3429342F1EF1B9CE003FAA12 /* Main.storyboard */,
 				342934321EF1B9CE003FAA12 /* Info.plist */,
 				342934331EF1B9CE003FAA12 /* VANET.entitlements */,
 			);
 			path = VANET;
+			sourceTree = "<group>";
+		};
+		346883B11EF1E17600014C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				346883B31EF1E18300014C61 /* CoreBluetooth.framework */,
+				346883B21EF1E17700014C61 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +144,6 @@
 			files = (
 				342934261EF1B9CE003FAA12 /* GameScene.sks in Resources */,
 				3429342E1EF1B9CE003FAA12 /* Assets.xcassets in Resources */,
-				342934281EF1B9CE003FAA12 /* Actions.sks in Resources */,
 				342934311EF1B9CE003FAA12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346883B01EF1DE9700014C61 /* Vehicle.swift in Sources */,
 				3429342C1EF1B9CE003FAA12 /* ViewController.swift in Sources */,
 				3429342A1EF1B9CE003FAA12 /* GameScene.swift in Sources */,
 				342934241EF1B9CE003FAA12 /* AppDelegate.swift in Sources */,
@@ -184,6 +196,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -239,6 +253,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -270,7 +286,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = VANET/VANET.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HLB4G4QBTU;
 				INFOPLIST_FILE = VANET/Info.plist;
@@ -285,7 +300,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = VANET/VANET.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HLB4G4QBTU;
 				INFOPLIST_FILE = VANET/Info.plist;
@@ -315,6 +329,7 @@
 				342934381EF1B9CE003FAA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
